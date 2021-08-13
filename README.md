@@ -3,7 +3,7 @@ Repository of the data needed to reproduce the Molecular Dynamics simulations of
 
 The repository is organized in the following directories:
 
-0-TOPO: topology files in GROMACS format
-1-EQUIL: protocol to perform equilibration of the system. Detailed instructions are contained in do_equilibration.sh.
-2-PRODUCTION: protocol to perform production simulation. Detailed instructions are contained in do_production.sh.
-3-ANALYSIS: Scripts and codes to perform analysis of the simulations.
+* 0-TOPO: topology files in GROMACS format
+* 1-EQUIL: protocol to perform equilibration of the system. Detailed instructions are contained in do_equilibration.sh.
+* 2-PRODUCTION: protocol to perform production simulation. Detailed instructions are contained in do_production.sh.
+* 3-ANALYSIS: Scripts and codes to perform analysis of the simulations.
