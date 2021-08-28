@@ -4,7 +4,8 @@ Repository of the data needed to reproduce the Molecular Dynamics simulations of
 
 * *hRBD-hACE2*: data related to the simulations of the human-RBD/human-ACE2 complex;
 * *b103RBD-hACE2*: data related to the simulations of the BANAL-103-RBD/human-ACE2 complex;
-* *b236RBD-hACE2*: data related to the simulations of the BANAL-236-RBD/human-ACE2 complex.
+* *b236RBD-hACE2*: data related to the simulations of the BANAL-236-RBD/human-ACE2 complex;
+* *DATA*: various scripts and GROMACS mdp files.
 
 Inside these directories, you will find 3 subdirectories named *RUN.X*, one for each independent run of the RBD-ACE2 complex
 under study. The naming scheme is defined in Table S4 of XXX. Each of the *RUN.X* directories is organized as follows:
