@@ -1,6 +1,6 @@
 # bat-MD
 Repository of the data needed to reproduce the Molecular Dynamics simulations of 3 different RBD-ACE2 complexes.
- All simulations have been performed using GROMACS 2020.4. The repository is organized in the following directories:
+ The repository is organized in the following directories:
 
 * *hRBD-hACE2*: data related to the simulations of the human-RBD/human-ACE2 complex;
 * *b103RBD-hACE2*: data related to the simulations of the BANAL-103-RBD/human-ACE2 complex;
@@ -12,3 +12,7 @@ under study. The naming scheme is defined in Table S4 of XXX. Each of the *RUN.X
 * *1-EQUIL*: run energy minimization and equilibration using the protocol in *do_emin_equil.sh*;
 * *2-PRODUCTION*: run production using the protocol in *do_production.sh*;
 * *3-ANALYSIS*: analyze production simulations
+
+** Software requirements **
+* [GROMACS 2020.4](https://www.gromacs.org)
+* [PLUMED v. 2.7](https://www.plumed.org)
