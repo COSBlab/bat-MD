@@ -13,6 +13,9 @@ under study. The naming scheme is defined in Table S4 of XXX. Each of the *RUN.X
 * *2-PRODUCTION*: run production using the protocol in *do_production.sh*;
 * *3-ANALYSIS*: analyze production simulations
 
-** Software requirements **
+**Software requirements**
 * [GROMACS 2020.4](https://www.gromacs.org)
 * [PLUMED v. 2.7](https://www.plumed.org)
+* [MDAnalysis](https://www.mdanalysis.org)
+* [ROSETTA v. 3.1123](https://www.rosettacommons.org)
+* [FoldX v. 424](http://foldxsuite.crg.eu)
