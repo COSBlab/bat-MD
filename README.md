@@ -18,5 +18,6 @@ under study. The naming scheme is defined in Table S4 of XXX. Each of the *RUN.X
 * [GROMACS 2020.4](https://www.gromacs.org)
 * [PLUMED 2.7](https://www.plumed.org)
 * [MDAnalysis 1.0.0](https://www.mdanalysis.org)
+* [MDTraj 1.9.5](https://www.mdtraj.org/1.9.5/index.html)
 * [ROSETTA 3.11](https://www.rosettacommons.org)
 * [FoldX 4](http://foldxsuite.crg.eu)
