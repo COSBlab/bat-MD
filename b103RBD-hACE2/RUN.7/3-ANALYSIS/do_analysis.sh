@@ -3,9 +3,9 @@ GMX=gmx_mpi
 # Set MPI launcher (srun/mpirun) - you might need to specify the number of MPI tasks
 MPI=srun
 # Set FoldX executable
-FOLDX="~/bin/FoldX/foldx"
+FOLDX=~/bin/FoldX/foldx
 # Set ROSETTA executable
-ROSETTA="~/rosetta/3.11/rosetta_bin_linux_2019.35.60890_bundle/main/source/bin/InterfaceAnalyzer.static.linuxgccrelease"
+ROSETTA=~/rosetta/3.11/rosetta_bin_linux_2019.35.60890_bundle/main/source/bin/InterfaceAnalyzer.static.linuxgccrelease
 
 ###
 ### preparing trajectory
@@ -51,8 +51,10 @@ do
  # padding for PDB filename
  jj=$(printf "%05d" $j)
  # run FoldX
- $FOLDX --command=AnalyseComplex --pdb=frame_${jj}.pdb --analyseComplexChains=A,B --complexWithDNA=false --output-file=out_$j clean-mode --pdb-dir="../PDBs/" --output-dir="./"
+ $FOLDX --command=AnalyseComplex --pdb=frame_${jj}.pdb --analyseComplexChains=A,B --complexWithDNA=false --output-file=out_$jj clean-mode --pdb-dir="../PDBs/" --output-dir="./"
 done
+# collect "Interaction Energy" of all frames in FoldX.dat
+grep -A2 "Interaction Energy" Summary_out_* | grep PDB | awk '{print $6}' > FoldX.dat
 # done
 cd ../
 
@@ -60,5 +62,7 @@ cd ../
 mkdir ROSETTA; cd ROSETTA
 # you might want to parallelize this using a job-array
 $ROSETTA -s ../PDBs/frame_*.pdb -use_jobname 1 -tracer_data_print 1 -out:file:score_only score.dat -add_regular_scores_to_scorefile 1
+# collect dG_separated (binding energy) of all frames in ROSETTA.dat
+tail -n +3 score.dat | awk '{print $6}' > ROSETTA.dat
 # done
 cd ../
