@@ -6,7 +6,8 @@ Repository of the data needed to reproduce the Molecular Dynamics simulations of
 * *b103RBD-hACE2*: data related to the simulations of the BANAL-103-RBD/human-ACE2 complex;
 * *b236RBD-hACE2*: data related to the simulations of the BANAL-236-RBD/human-ACE2 complex.
 
-Inside each of these directories, you will find 3 subdirectories named *RUN.X*, which contain:
+Inside these directories, you will find 3 subdirectories named *RUN.X*, one for each independent run of the RBD-ACE2 complex
+under study. Each of the *RUN.X* directories is organized as follows:
 * *0-TOPO*: topology files in GROMACS format;
 * *1-EQUIL*: run energy minimization and equilibration using the protocol in *do_emin_equil.sh*;
 * *2-PRODUCTION*: run production using the protocol in *do_production.sh*;
