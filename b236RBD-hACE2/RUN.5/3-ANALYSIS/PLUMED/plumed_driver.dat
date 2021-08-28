@@ -26,5 +26,5 @@ s5-1: DISTANCE NOPBC ATOMS=313,5301
 s5-2: DISTANCE NOPBC ATOMS=312,5301
 
 # print stuff
-PRINT ARG=rmsd-ace,rmsd-rbd,rmsd-ace-rbd,rmsd-rbd-ace,rmsd-inter FILE=COLVAR_RMSD STRIDE=1
+PRINT ARG=rmsd-ace,rmsd-rbd,rmsd-inter FILE=COLVAR_RMSD STRIDE=1
 PRINT ARG=s1-1,s1-2,s2-1,s2-2,s3-1,s3-2,s4-1,s4-2,s5-1,s5-2 FILE=COLVAR_SB STRIDE=1
