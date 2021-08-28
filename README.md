@@ -11,7 +11,7 @@ under study. The naming scheme is defined in Table S4 of XXX. Each of the *RUN.X
 * *0-TOPO*: topology files in GROMACS format;
 * *1-EQUIL*: run energy minimization and equilibration using the protocol in *do_emin_equil.sh*;
 * *2-PRODUCTION*: run production using the protocol in *do_production.sh*;
-* *3-ANALYSIS*: analyze production simulations
+* *3-ANALYSIS*: analyze production simulations using the protocol in *do_analysis.sh*.
 
 **Software requirements**
 * [GROMACS 2020.4](https://www.gromacs.org)
