@@ -15,7 +15,7 @@ under study. The naming scheme is defined in Table S4 of XXX. Each of the *RUN.X
 
 **Software requirements**
 * [GROMACS 2020.4](https://www.gromacs.org)
-* [PLUMED v. 2.7](https://www.plumed.org)
-* [MDAnalysis](https://www.mdanalysis.org)
-* [ROSETTA v. 3.1123](https://www.rosettacommons.org)
-* [FoldX v. 424](http://foldxsuite.crg.eu)
+* [PLUMED 2.7](https://www.plumed.org)
+* [MDAnalysis 1.0.0](https://www.mdanalysis.org)
+* [ROSETTA 3.11](https://www.rosettacommons.org)
+* [FoldX 4](http://foldxsuite.crg.eu)
