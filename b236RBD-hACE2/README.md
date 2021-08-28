@@ -1,4 +1,4 @@
-# Simulations of the BANAL-103-RBD/human-ACE2 complex
+# Simulations of the BANAL-236-RBD/human-ACE2 complex
 Summary table of the simulations contained in this directory:
 
 |   RUN ID	   |  Construct	| Initial model	| # K/Cl ions |	 # waters | Total # atoms | Production time [ns] |
