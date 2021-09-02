@@ -1,4 +1,4 @@
-# Simulations of the BANAL-236-RBD/human-ACE2 complex
+# Simulations of the BANAL-236 RBD/hACE2 complex
 
 This directory is organized as follows:
 * `0-TOPO`: topology files in GROMACS format;
