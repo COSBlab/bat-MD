@@ -1,14 +1,14 @@
-# Molecular Dynamics simulations of RBD-ACE2 complexes 
-Repository of the data needed to reproduce the Molecular Dynamics simulations of 3 different RBD-ACE2 complexes reported in XXX.
+# Molecular Dynamics simulations of RBD/hACE2 complexes 
+Repository of the data needed to reproduce the Molecular Dynamics simulations of 3 different RBD/hACE2 complexes reported in XXX.
  This repository is organized in the following directories:
 
-* `hRBD-hACE2`: data related to the simulations of the human-RBD/human-ACE2 complex;
-* `b236RBD-hACE2`: data related to the simulations of the BANAL-236-RBD/human-ACE2 complex;
-* `b103RBD-hACE2`: data related to the simulations of the BANAL-103-RBD/human-ACE2 complex;
+* `SARS-CoV-2`: data related to the simulations of the SARS-CoV-2 RBD/hACE2 complex;
+* `BANAL-236-CoV`: data related to the simulations of the BANAL-236 RBD/hACE2 complex;
+* `BANAL-52/103-CoV`: data related to the simulations of the BANAL-52/103 RBD/hACE2 complex;
 * `DATA`: various protocols, python/bash scripts and GROMACS mdp files.
 
-Inside the first 3 directories, you will find 3 subdirectories named `RUN.X`, one for each independent run of the RBD-ACE2 complex
-under study. The naming scheme is defined in Table S4 of XXX (reported at the bottom). Each `RUN.X` directory is organized as follows:
+Inside the first 3 directories, you will find 3 subdirectories, one for each independent run of the RBD/hACE2 complex
+under study. The naming scheme is defined in Table S4 of XXX (reported at the bottom). Each of these directories is organized as follows:
 * `0-TOPO`: topology files in GROMACS format;
 * `1-EQUIL`: run energy minimization and equilibration here. Please refer to `README.md` for instructions;
 * `2-PRODUCTION`: run production simulations here. Please refer to `README.md` for instructions; 
@@ -26,12 +26,12 @@ under study. The naming scheme is defined in Table S4 of XXX (reported at the bo
 
 |   RUN ID	   |  Construct	| Initial model	| # K/Cl ions |	 # waters | Total # atoms | Production time [ns] |
 | :------: |  :------:  |     :------:  | :------:    | :------:  | :------:      | :------:             |
-| 1 | hRBD-hACE2 | X-ray | 121/97 | 30621 | 104592 | 1000 |
-| 2 | hRBD-hACE2 | X-ray | 121/97 | 30621 | 104592 | 1000 |
-| 3 | hRBD-hACE2 | X-ray | 121/97 | 30621 | 104592 | 1000 |
-| 4 | b236RBD-hACE2 | Homology model (top1) | 121/97 | 30502 | 104228 | 1000 |
-| 5 | b236RBD-hACE2 | Homology model (top2) | 120/96 | 30140 | 103140 | 1000 |
-| 6 | b236RBD-hACE2 | Homology model (top3) | 120/96 | 30090 | 102990 | 1000 |
-| 7 |   b103RBD-hACE2 |	Homology model (top1) |	123/98	| 30808	| 105144 | 1000 |
-| 8 |	b103RBD-hACE2 |	Homology model (top2) |	121/96	| 30135	| 103121 | 1000 |
-| 9 |	b103RBD-hACE2 |	Homology model (top3) |	124/99	| 31307	| 106643 | 1000 |
+| SARS-CoV-2.1 | SARS-CoV-2 RBD/hACE2 | X-ray | 121/97 | 30621 | 104592 | 1000 |
+| SARS-CoV-2.2 | SARS-CoV-2 RBD/hACE2 | X-ray | 121/97 | 30621 | 104592 | 1000 |
+| SARS-CoV-2.3 | SARS-CoV-2 RBD/hACE2 | X-ray | 121/97 | 30621 | 104592 | 1000 |
+| BANAL-236-CoV.1 | BANAL-236 RBD/hACE2 | Homology model (top1) | 121/97 | 30502 | 104228 | 1000 |
+| BANAL-236-CoV.2 | BANAL-236 RBD/hACE2 | Homology model (top2) | 120/96 | 30140 | 103140 | 1000 |
+| BANAL-236-CoV.3 | BANAL-236 RBD/hACE2 | Homology model (top3) | 120/96 | 30090 | 102990 | 1000 |
+| BANAL-52/103-CoV.1 | BANAL-52/103 RBD/hACE2 |	Homology model (top1) |	123/98	| 30808	| 105144 | 1000 |
+| BANAL-52/103-CoV.2 | BANAL-52/103 RBD/hACE2 |	Homology model (top2) |	121/96	| 30135	| 103121 | 1000 |
+| BANAL-52/103-CoV.3 | BANAL-52/103 RBD/hACE2 |	Homology model (top3) |	124/99	| 31307	| 106643 | 1000 |
