@@ -46,4 +46,4 @@ how to install the software can be found by following the corresponding link.
 
 **Contact**
 
-For any questions/information, please write to mbonomi_at_pasteur.fr.
+For any technical questions, please write to mbonomi_at_pasteur.fr.
