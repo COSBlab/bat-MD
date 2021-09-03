@@ -15,6 +15,10 @@ under study. The naming scheme along with some basic information about the simul
 * `3-ANALYSIS`: analyze production simulations here. Please refer to `README.md` for instructions.
 
 **Software requirements**
+
+Make sure you install the following software before performing and analyzing the simulations. Information about
+how to install the software can be found by following the corresponding link.  
+
 * [GROMACS 2020.4](https://www.gromacs.org)
 * [PLUMED 2.7](https://www.plumed.org)
 * [MDAnalysis 1.0.0](https://www.mdanalysis.org)
