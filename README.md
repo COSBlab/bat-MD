@@ -9,7 +9,7 @@ Repository of the data needed to reproduce the Molecular Dynamics simulations of
 
 Inside the first 3 directories, you will find 3 subdirectories, one for each independent run of the RBD/hACE2 complex
 under study. The naming scheme is defined in Table S4 of XXX (reported at the bottom). Each of these directories is organized as follows:
-* `0-TOPO`: topology files in GROMACS format;
+* `0-TOPO`: initial conformation and topology files in GROMACS format;
 * `1-EQUIL`: run energy minimization and equilibration here. Please refer to `README.md` for instructions;
 * `2-PRODUCTION`: run production simulations here. Please refer to `README.md` for instructions; 
 * `3-ANALYSIS`: analyze production simulations here. Please refer to `README.md` for instructions.
