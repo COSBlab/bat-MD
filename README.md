@@ -8,7 +8,7 @@ Repository of the data needed to reproduce the Molecular Dynamics simulations of
 * `DATA`: various protocols, python/bash scripts and GROMACS mdp files.
 
 Inside the first 3 directories, you will find 3 subdirectories, one for each independent run of the RBD/hACE2 complex
-under study. The naming scheme is defined in Table S4 of XXX (reported at the bottom). Each of these directories is organized as follows:
+under study. The naming scheme along with some basic information about the simulation is reported in the table at the bottom of this page. Each of the directories in the table is organized as follows:
 * `0-TOPO`: initial conformation and topology files in GROMACS format;
 * `1-EQUIL`: run energy minimization and equilibration here. Please refer to `README.md` for instructions;
 * `2-PRODUCTION`: run production simulations here. Please refer to `README.md` for instructions; 
