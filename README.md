@@ -1,14 +1,18 @@
 # Molecular Dynamics simulations of RBD/hACE2 complexes 
-Repository of the data needed to reproduce the Molecular Dynamics simulations of 3 different RBD/hACE2 complexes reported in XXX.
- This repository is organized in the following directories:
+Repository of the data needed to reproduce the Molecular Dynamics simulations of 3 different RBD/hACE2 complexes reported in:
 
+S. Temmam *et al.*, Coronaviruses with a SARS-CoV-2-like receptor binding domain allowing ACE2-mediated entry into human cells isolated from bats of Indochinese peninsula. doi: .
+
+
+This repository is organized in the following directories:
 * `SARS-CoV-2`: data related to the simulations of the SARS-CoV-2 RBD/hACE2 complex;
 * `BANAL-236-CoV`: data related to the simulations of the BANAL-236 RBD/hACE2 complex;
 * `BANAL-52-103-CoV`: data related to the simulations of the BANAL-52-103 RBD/hACE2 complex;
 * `DATA`: various protocols, python/bash scripts and GROMACS mdp files.
 
 Inside the first 3 directories, you will find 3 subdirectories, one for each independent run of the RBD/hACE2 complex
-under study. The naming scheme along with some basic information about the simulations is reported in the table at the bottom of this page. Each of the directories in the table is organized as follows:
+under study. The naming scheme along with some basic information about the simulations is reported in the table at the bottom of this page.
+Each of the directories in the table is organized as follows:
 * `0-TOPO`: initial conformation and topology files in GROMACS format;
 * `1-EQUIL`: run energy minimization and equilibration here. Please refer to `README.md` for instructions;
 * `2-PRODUCTION`: run production simulations here. Please refer to `README.md` for instructions; 
