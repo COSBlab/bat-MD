@@ -43,3 +43,7 @@ how to install the software can be found by following the corresponding link.
 | BANAL-52-103-CoV.1 | BANAL-52-103 RBD/hACE2 |	Homology model (top1) |	123/98	| 30808	| 105144 | 1000 |
 | BANAL-52-103-CoV.2 | BANAL-52-103 RBD/hACE2 |	Homology model (top2) |	121/96	| 30135	| 103121 | 1000 |
 | BANAL-52-103-CoV.3 | BANAL-52-103 RBD/hACE2 |	Homology model (top3) |	124/99	| 31307	| 106643 | 1000 |
+
+**Contact**
+
+For any questions/information, please write to mbonomi_at_pasteur.fr.
