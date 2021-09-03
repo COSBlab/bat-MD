@@ -10,7 +10,7 @@ This repository is organized in the following directories:
 * `BANAL-52-103-CoV`: data related to the simulations of the BANAL-52-103 RBD/hACE2 complex;
 * `DATA`: various protocols, python/bash scripts and GROMACS mdp files.
 
-Inside the first 3 directories, you will find 3 subdirectories, one for each independent run of the RBD/hACE2 complex
+Inside the first 3 directories, you will find 3 subdirectories, one for each independent run (replicate) of the RBD/hACE2 complex
 under study. The naming scheme along with some basic information about the simulations is reported in the table at the bottom of this page.
 Each of the directories in the table is organized as follows:
 * `0-TOPO`: initial conformation and topology files in GROMACS format;
