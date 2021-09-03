@@ -26,7 +26,7 @@ how to install the software can be found by following the corresponding link.
 * [ROSETTA 3.11](https://www.rosettacommons.org)
 * [FoldX 4](http://foldxsuite.crg.eu)
 
-**Summary of all simulations performed**
+**Summary of all the simulations performed**
 
 |   RUN ID	   |  Construct	| Initial model	| # K/Cl ions |	 # waters | Total # atoms | Production time [ns] |
 | :------: |  :------:  |     :------:  | :------:    | :------:  | :------:      | :------:             |
