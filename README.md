@@ -34,9 +34,9 @@ how to install the software can be found by following the corresponding link.
 
 |   RUN ID	   |  Construct	| Initial model	| # K/Cl ions |	 # waters | Total # atoms | Production time [ns] |
 | :------: |  :------:  |     :------:  | :------:    | :------:  | :------:      | :------:             |
-| SARS-CoV-2.1 | SARS-CoV-2 RBD/hACE2 | X-ray [6M0J](https://www.rcsb.org/structure/6M0J) | 121/97 | 30621 | 104592 | 1000 |
-| SARS-CoV-2.2 | SARS-CoV-2 RBD/hACE2 | X-ray [6M0J](https://www.rcsb.org/structure/6M0J) | 121/97 | 30621 | 104592 | 1000 |
-| SARS-CoV-2.3 | SARS-CoV-2 RBD/hACE2 | X-ray [6M0J](https://www.rcsb.org/structure/6M0J) | 121/97 | 30621 | 104592 | 1000 |
+| SARS-CoV-2.1 | SARS-CoV-2 RBD/hACE2 | X-ray (PDB [6M0J](https://www.rcsb.org/structure/6M0J)) | 121/97 | 30621 | 104592 | 1000 |
+| SARS-CoV-2.2 | SARS-CoV-2 RBD/hACE2 | X-ray (PDB [6M0J](https://www.rcsb.org/structure/6M0J)) | 121/97 | 30621 | 104592 | 1000 |
+| SARS-CoV-2.3 | SARS-CoV-2 RBD/hACE2 | X-ray (PDB [6M0J](https://www.rcsb.org/structure/6M0J)) | 121/97 | 30621 | 104592 | 1000 |
 | BANAL-236-CoV.1 | BANAL-236 RBD/hACE2 | Homology model (top1) | 121/97 | 30502 | 104228 | 1000 |
 | BANAL-236-CoV.2 | BANAL-236 RBD/hACE2 | Homology model (top2) | 120/96 | 30140 | 103140 | 1000 |
 | BANAL-236-CoV.3 | BANAL-236 RBD/hACE2 | Homology model (top3) | 120/96 | 30090 | 102990 | 1000 |
