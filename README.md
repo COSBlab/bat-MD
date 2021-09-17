@@ -1,7 +1,7 @@
 # Molecular Dynamics simulations of RBD/hACE2 complexes 
 Repository of the data needed to reproduce the Molecular Dynamics simulations of 3 different RBD/hACE2 complexes reported in:
 
-S. Temmam *et al.*, Coronaviruses with a SARS-CoV-2-like receptor binding domain allowing ACE2-mediated entry into human cells isolated from bats of Indochinese peninsula. doi: .
+S. Temmam *et al.*, Coronaviruses with a SARS-CoV-2-like receptor binding domain allowing ACE2-mediated entry into human cells isolated from bats of Indochinese peninsula. doi: [10.21203/rs.3.rs-871965/v1](https://doi.org/10.21203/rs.3.rs-871965/v1).
 
 
 This repository is organized in the following directories:
